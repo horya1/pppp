@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> 
+</head>
+<body>
+    
+    
+    
+    
+    
+    
+    
+     <!--==============================
+               btn-top
+==================================-->
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+    
+    
+     <!--==============================
+               end-btn-top
+==================================-->
+    
+
+    
+    
+    
+    <!--==============================
+               nav-bar
+==================================-->
+    
+         <nav class="navbar navbar-expand-lg navbar-light  form2 " style="background-image: url(../images/Untitled-1.jpg);background-attachment: fixed;" >
+              <div class="container">
+                   <a href="index.html" class="navbar-brand">
+                     <img src="images/logo1.png" class="img-fluid mx-auto d-block w-25">
+                   </a>
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+                  
+                 
+        
+                   <div class=" collapse navbar-collapse py-5 " id="navbarNav">
+                    
+                      <ul class="navbar-nav ml-auto">
+                          
+                           <li class="nav-item active ">
+                               <a class="nav-link  t2" href="index.html"><strong>HOME</strong></a>
+                           </li>
+          
+          
+                           <li class="nav-item ">
+                               <a class="nav-link   t3" href="aboutus.html"><strong>ABOUT US</strong></a>
+                           </li>
+            
+            
+                           <li class="nav-item ">
+                               <a class="nav-link   t3" href="doctors.html"><strong>DOCTORS</strong></a>
+                           </li>
+                          
+                          
+                           <li class="nav-item ">
+                               <a class="nav-link  t3" href="depart.html"><strong>DEPARTMENTS</strong></a>
+                           </li>
+            
+            
+            
+                           <li class="nav-item ">
+                               <a class="nav-link colr t3" href="contact.html"><strong>CONTACTS</strong></a>
+                           </li>
+                      </ul>
+                       
+                   </div><!--collapse-->
+                  
+                 
+                 
+        <div class="row">
+                 <div class=" p-3 ml-4 col-sm-3">
+                  <img src="images/1.gif" id="imgs2" style="position:relative;right:40px;top:19px" onclick="this.style.zIndex=2;document.getElementById('imgs1').style.zIndex=1" />
+                  
+	<img src="images/2.gif" id="imgs1" style="position:relative;right:54px;top:2px" onclick="this.style.zIndex=2;document.getElementById('imgs2').style.zIndex=1" />
+                  </div>
+                  </div>
+               </div><!--container-->
+          </nav>
+ 
+    
+    
+    <!--==============================
+               end-navbar
+==================================-->    
+     
+    
+    
+    
+    
+   
+    
+    
+   
+    
+     <!--==============================
+              start-section
+==================================-->
+    
+    <div class="doctor mt-2 " >
+       <div class="container">
+         <div class="row">
+           <div class="col">
+             <img src="images/ssssssss.jpg" class="img-fluid" >
+               <div class="texts  text-center text-white">
+                 <h1 class="py-4">Our Team</h1>
+                   <p class="txt6">Our seasoned and skilled team of surgeons and practical nurses will leave no chance for any disease to survive!   Their combined practice proven record shows that more than 90% of all issues are successfully resolved!We’re never afraid to       go the extra mile for your health needs!</p>
+                        <div class="row">
+                          <div class="col-md-4 col-sm-12">
+                            <img src="images/doc2.jpg" class=" doc1 img-fluid rounded-circle  mb-3 mt-5"  >
+                              <h3 class="pt-1">DR:Mouhamed Shreef</h3>
+                                <h5>Senior surgeon</h5>
+                                  <p class=" p-3 txt6 ">Mouhamed walked a long way from his HOME state of Alaska to becoming one of the country's     top surgeons! We're glad he took that path with us, as well as thousands of people, whose lives he</p>
+                   
+                                      <div class="d-flex flex-row justify-content-center">
+                                          <div class="p-2">
+                                            <a href="#"><i class="fa fa-facebook fad1"></i></a>
+                                          </div><!--p-2-->
+                                          <div class="p-2">
+                                            <a href="#"><i class="fa fa-twitter fad1"></i></a>
+                                          </div><!--p-2-->
+                                          <div class="p-2">
+                                            <a href="#"><i class="fa fa-google-plus fad1"></i></a>
+                                          </div><!--p-2-->
+                                          <div class="p-2">
+                                            <a href="#"><i class="fa fa-instagram fad1"></i></a>
+                                          </div><!--p-2-->
+                                     </div><!--d-flex-->
+                            </div><!--col-md-4-->
+            
+                            <div class="col-md-4 col-sm-12">
+                              <img src="images/doc4.jpg" class=" doc1 img-fluid rounded-circle  mb-3 mt-5"  >
+                                <h3 class="pt-1">DR:Eslam Matter</h3>
+                                  <h5>Head of the surgery dept</h5>
+                                     <p class=" p-3 txt6 ">Eslam is the head of our Surgery department. He practices at our clinic since its         initial founding days 25 years ago. He performs the most intricate and dangerous operations.</p>
+               
+                                        <div class="d-flex flex-row justify-content-center">
+                                          <div class="p-2">
+                                           <a href="#"><i class="fa fa-facebook fad1"></i></a>
+                                          </div><!--p-2-->
+                                          <div class="p-2">
+                                             <a href="#"><i class="fa fa-twitter fad1"></i></a>
+                                          </div><!--p-2-->
+                                          <div class="p-2">
+                                             <a href="#"><i class="fa fa-google-plus fad1"></i></a>
+                                          </div><!--p-2-->
+                                          <div class="p-2">
+                                             <a href="#"><i class="fa fa-instagram fad1"></i></a>
+                                          </div><!--p-2-->
+                                        </div><!--d-flex-->
+                             </div><!--col-4-->
+            
+                           <div class="col-md-4 col-sm-12">
+                             <img src="images/doc8.jpg" class=" doc1 img-fluid rounded-circle  mb-3 mt-5"  >
+                               <h3 class="pt-1">DR:Adel Shafeek</h3>
+                                 <h5>Senior surgeon</h5>
+                                   <p class=" p-3 txt6 ">Adel walked a long way from his HOME state of Alaska to becoming one of the country's top    surgeons! We're glad he took that path with us, as well as thousands of people, whose lives he</p>
+                                      <div class="d-flex flex-row justify-content-center">
+                                        <div class="p-2">
+                                           <a href="#"><i class="fa fa-facebook fad1"></i></a>
+                                        </div><!--p-2-->
+                                        <div class="p-2">
+                                           <a href="#"><i class="fa fa-twitter fad1"></i></a>
+                                        </div><!--p-2-->
+                                        <div class="p-2">
+                                           <a href="#"><i class="fa fa-google-plus fad1"></i></a>
+                                        </div><!--p-2-->
+                                        <div class="p-2">
+                                           <a href="#"><i class="fa fa-instagram fad1"></i></a>
+                                        </div><!--p-2-->
+                                     </div><!--d-flex-->
+                           </div><!--col-4-->
+            
+                           <div class="col-md-4 col-sm-12">
+                             <img src="images/doc9.jpg" class=" doc1 img-fluid rounded-circle  mb-3 mt-5"  >
+                               <h3 class="pt-1">DR:Marwa Ayaad</h3>
+                                 <h5>Senior surgeon</h5>
+                                   <p class=" p-3 txt6 ">Marwa Dana is the head of our neurosurgery department. As our senior neurosurgeon, she's      responsible for the most sophisticated operations... Whenever a brain surgery gets too complex for other          senior surgeons.</p>
+                                        <div class="d-flex flex-row justify-content-center">
+                                           <div class="p-2">
+                                              <a href="#"><i class="fa fa-facebook fad1"></i></a>
+                                           </div><!--p-2-->
+                                           <div class="p-2">
+                                              <a href="#"><i class="fa fa-twitter fad1"></i></a>
+                                           </div><!--p-2-->
+                                           <div class="p-2">
+                                              <a href="#"><i class="fa fa-google-plus fad1"></i></a>
+                                           </div><!--p-2-->
+                                           <div class="p-2">
+                                              <a href="#"><i class="fa fa-instagram fad1"></i></a>
+                                           </div><!--p-2-->
+                                        </div><!--d-flex-->
+                            </div><!--col-4-->
+            
+                            <div class="col-md-4 col-sm-12">
+                              <img src="images/doc3.jpg" class=" doc1 img-fluid rounded-circle  mb-3 mt-5"  >
+                                <h3 class="pt-1">DR:Maher Zeen</h3>
+                                  <h5>Senior surgeon</h5>
+                                    <p class=" p-3 txt6 ">Maher is responsible for all bi-yearly general healthcare checkups. His experience as a     therapist spans for more than 15 years. At our clinic he manages all the preventative and post-surgery           therapeurtic sessions...</p>
+                                        <div class="d-flex flex-row justify-content-center">
+                                          <div class="p-2">
+                                             <a href="#"><i class="fa fa-facebook fad1"></i></a>
+                                          </div><!--p-2-->
+                                          <div class="p-2">
+                                             <a href="#"><i class="fa fa-twitter fad1"></i></a>
+                                          </div><!--p-2-->
+                                          <div class="p-2">
+                                             <a href="#"><i class="fa fa-google-plus fad1"></i></a>
+                                          </div><!--p-2-->
+                                          <div class="p-2">
+                                             <a href="#"><i class="fa fa-instagram fad1"></i></a>
+                                          </div><!--p-2-->
+                                        </div><!--d-flex-->
+                             </div><!--col-4-->
+            
+                             <div class="col-md-4 col-sm-12">
+                                <img src="images/doc6.jpg" class=" doc1 img-fluid rounded-circle  mb-3 mt-5"  >
+                                   <h3 class="pt-1">DR:Maged Ahmed</h3>
+                                     <h5>Senior surgeon</h5>
+                                        <p class=" p-3 txt6 ">At the age of 31, John is the youngest head of a department at our clinic. Despite     that he is one of the most talented doctors our clinic has. His skills and practical knowledge are          unprecedented</p>
+                                           <div class="d-flex flex-row justify-content-center">
+                                              <div class="p-2">
+                                                 <a href="#"><i class="fa fa-facebook fad1"></i></a>
+                                              </div><!--p-2-->
+                                              <div class="p-2">
+                                                 <a href="#"><i class="fa fa-twitter fad1"></i></a>
+                                              </div><!--p-2-->
+                                              <div class="p-2">
+                                                 <a href="#"><i class="fa fa-google-plus fad1"></i></a>
+                                              </div><!--p-2-->
+                                              <div class="p-2">
+                                                  <a href="#"><i class="fa fa-instagram fad1"></i></a>
+                                              </div><!--p-2-->
+                                            </div><!--d-flex-->
+                               </div><!--col-4-->
+            
+                               <div class="col-md-4 col-sm-12">
+                                 <img src="images/doc7.jpg" class=" doc1 img-fluid rounded-circle  mb-3 mt-5"  >
+                                   <h3 class="pt-1">DR:Ahmed Maher</h3>
+                                     <h5>Head neurosurgeon</h5>
+                                        <p class=" p-3 txt6 ">Ahmed walked a long way from his HOME state of Alaska to becoming one of the           country's top surgeons! We're glad he took that path with us, as well as thousands of people, whose lives     he</p>
+                                          <div class="d-flex flex-row justify-content-center">
+                                            <div class="p-2">
+                                              <a href="#"><i class="fa fa-facebook fad1"></i></a>
+                                            </div><!--p-2-->
+                                            <div class="p-2">
+                                              <a href="#"><i class="fa fa-twitter fad1"></i></a>
+                                            </div><!--p-2-->
+                                            <div class="p-2">
+                                              <a href="#"><i class="fa fa-google-plus fad1"></i></a>
+                                            </div><!--p-2-->
+                                            <div class="p-2">
+                                              <a href="#"><i class="fa fa-instagram fad1"></i></a>
+                                            </div><!--p-2-->
+                                           </div><!--d-flex-->
+                                </div><!--col-4-->
+            
+                                <div class="col-md-4 col-sm-12">
+                                  <img src="images/doc11.jpg" class=" doc1 img-fluid rounded-circle  mb-3 mt-5"  >
+                                    <h3 class="pt-1">DR:Judy Matter </h3>
+                                      <h5>Senior surgeon</h5>
+                                        <p class=" p-3 txt6 ">Judy is the head of our neurosurgery department. As our senior neurosurgeon, she's      responsible for the most sophisticated operations... Whenever a brain surgery gets too complex for other     senior surgeons.</p>
+                                            <div class="d-flex flex-row justify-content-center">
+                                              <div class="p-2">
+                                                <a href="#"><i class="fa fa-facebook fad1"></i></a>
+                                              </div><!--p-2-->
+                                              <div class="p-2">
+                                                <a href="#"><i class="fa fa-twitter fad1"></i></a>
+                                              </div><!--p-2-->
+                                              <div class="p-2">
+                                                <a href="#"><i class="fa fa-google-plus fad1"></i></a>
+                                              </div><!--p-2-->
+                                              <div class="p-2">
+                                                <a href="#"><i class="fa fa-instagram fad1"></i></a>
+                   
+                                              </div><!--p-2-->
+                                            </div><!--d-flex-->
+                                </div><!--col-4-->
+            
+                                <div class="col-md-4 col-sm-12">
+                                   <img src="images/doc10.jpg" class=" doc1 img-fluid rounded-circle  mb-3 mt-5"  >
+                                     <h3 class="pt-1">DR:Adam Eslam </h3>
+                                       <h5>Senior surgeon</h5>
+                                         <p class=" p-3 txt6 ">As a surgeon for Reconstructive surgery department, Thomas deals a lot with people      on the brink of desperation... Nevertheless, he just loves to see his patients smile again.</p><br>
+                                            <div class="d-flex flex-row justify-content-center">
+                                              <div class="p-2">
+                                                <a href="#"><i class="fa fa-facebook fad1"></i></a>
+                                              </div><!--p-2-->
+                                              <div class="p-2">
+                                                <a href="#"><i class="fa fa-twitter fad1"></i></a>
+                                              </div><!--p-2-->
+                                              <div class="p-2">
+                                                <a href="#"><i class="fa fa-google-plus fad1"></i></a>
+                                              </div><!--p-2-->
+                                              <div class="p-2">
+                                                <a href="#"><i class="fa fa-instagram fad1"></i></a>
+                                              </div><!--p-2-->
+                                            </div><!--d-flex-->
+                                  </div><!--col-4-->
+                              </div><!--row-->
+                          </div><!--texts-->
+                      </div><!--col-->
+                   </div><!--row-->
+               </div><!--container-->
+           </div><!--doctor-->
+ 
+
+
+
+
+
+ <!--==============================
+           end-section
+==================================-->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--==============================
+              last-sec
+==================================-->
+    <div class="container">
+      <div class="end1 my-2 py-2 bg-dark" >
+         <div class="container">
+           <div class="row">
+             <div class="col-md-6 text-center">
+       
+               <h1 class="text-white">VETAL<span class="text-info">MD</span></h1>
+               <p class="text-white">We’re at your service for 24/7, finding solutions <br>to any health issues that you might have!</p>
+               <br><br>
+        
+               <h1 class="text-info">Opening hours</h1>
+               <p class="text-white">Working Days: Mon.-Fri.<br>
+                Working Hours: 9.00AM-5.00PM</p>
+    
+            </div>
+            <div class="col-md-6 text-center text-white">
+             <h1 class="text-info">Primary Contacts</h1>
+             <p>Phone: +96522202223
+             <br>Fax: 1.555.329.6532
+             <br>Email: healtro@demolink.org</p>
+             <br>
+             <h1 class="text-info">Directions</h1>
+             <p class="py-3">87 Hayi Aljamieih.,
+             Elmansoura, VA, USA, 22303</p>
+           </div><!--col-md-6-->
+        </div><!--row-->
+      </div><!--container-->
+    </div>
+ </div>
+
+<!--==============================
+             end-last-sec
+==================================-->
+
+ 
+    
+    
+    
+  <!--==============================
+               footer
+==================================-->
+ 
+    <footer id="footer-mine" class="text-center">
+    
+    <div class="container">
+       <div class="row">
+       <div class="col">
+         <p>
+             2018 &#64; Healtro. All rights reserved. <span class="text-info">| Privacy Policy | </span>Designed by <span class=" text-info">lifetech</span></p>
+           </div>
+        </div>
+        </div>
+    </footer>
+     <!--==============================
+              end-footer
+==================================-->
+    
+    
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

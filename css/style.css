@@ -1,0 +1,149 @@
+*{margin: 0;padding: 0;box-sizing: border-box}
+html{background-color: #fff;color: #555;font-family: lato;text-rendering: optimizeLegibility}
+
+body{margin: 0px;}
+
+    
+    
+#navbarNav{margin-right: 100px;}
+
+
+
+
+
+
+
+
+.txt{color: #00b3fe }
+#welcome .t1{color:#00b3fe}
+#navbarNav .t2{color:#ffff;background-color:#e71d28}
+#navbarNav .t2:hover{color: black}
+
+#navbarNav .t3{color:#ffff}
+#navbarNav .t3:hover{color:black;}
+
+.form2{background-color: #01b9fe}
+.form2 .text1{color:#00b3fe}
+
+.selc1{color: #e7f5fb}
+.form2 .sub1{color: #00b3fe}
+.form2 .sub1:hover{color: black}
+.n1{background-color: #00b3fe;color: #fff}
+
+#carousel1 .slids1{height: 350px}
+
+#carousel1 .img4{display: block;width: 100%;height: 100%}
+.back1{background-color: #00b3fe} 
+.form-check{text-align: left ;margin-left: 120px}
+#news .hi1{height: 300px}
+.txt1{color: antiquewhite}
+.txt2{color: black}
+#subscribe{background-size: cover;background-attachment:scroll;min-height: 500px;margin: -4px;
+    background-image: linear-gradient(rgba(0,0,0,.2) , rgba(0,0,0,.2)),url(../images/ddddd.jpeg) ;margin-top: 30px}
+.txt4{color:black;font-weight: 400}
+
+#contact a{color: black}
+#contact a:hover{color:#00b3fe }
+
+
+
+
+
+
+
+
+
+
+
+.texts{background-color: #00b3fe}
+.doc1{width: 250px;height: 250px}
+.txt6{font-size: 16px;}
+.fad1{font-size:18px;color: #fff }
+.fad1:hover{color: black;}
+.doc1{ opacity:.9 ;transform: scale(1.15);transition: all 1s}
+.doc1:hover{ opacity:1;transform: scale(1)}
+.depart1{background-color: #00b3fe}
+.img6{width: 200px;height: 200px}
+.txt7{color: #00b3fe}
+.depart2{background-color: #00b3fe}
+.card1{background-color: #00b3fe}
+.r1{color: #00b3fe}
+.r2{font-family:sans-serif;font-size: 18px}
+.txtspace{line-height: 30px;font-size: 18px}
+.img0{box-shadow: 5px 5px 10px #00b3fe}
+.map-responsive{overflow: hidden;padding-bottom: 56.25%;position: relative;height: 0}
+.map-responsive iframe{left: 0;top: 0;height: 100%;width:100%;position: absolute;}
+
+.food p{font-size: 18px;font-family: monospace}
+.fit p{font-size: 18px;font-family: monospace}
+.textf{font-family:lato}
+.cardtxt{font-family:fantasy}
+
+
+
+
+
+/* Center the loader */
+#loader {  position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background:#03132b;
+    z-index: 999999;
+    text-align: center;
+}
+
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+  
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  background-size: cover;background-attachment: fixed;min-height: 600px;
+}
+
+@keyframes animatebottom { 
+  background-size: cover;background-attachment: fixed;min-height: 600px;
+}
+
+
+
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #00b3fe;
+  color: #ffff;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color:black;
+    color:white;
+}

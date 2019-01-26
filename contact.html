@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> 
+</head>
+<body>
+    
+    
+    
+    
+     <!--==============================
+               btn-top
+==================================-->
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+    
+    
+     <!--==============================
+               end-btn-top
+==================================-->
+    
+    
+    
+    
+    
+    
+     <!--==============================
+               nav-bar
+==================================-->
+    
+         <nav class="navbar navbar-expand-lg navbar-light   form2 " style="background-image: url(../images/Untitled-1.jpg);background-attachment: fixed;" >
+              <div class="container">
+                   <a href="index.html" class="navbar-brand">
+                     <img src="images/logo1.png" class="img-fluid mx-auto d-block w-25">
+                   </a>
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+                  
+                 
+        
+                   <div class=" collapse navbar-collapse py-5 " id="navbarNav">
+                    
+                      <ul class="navbar-nav ml-auto">
+                          
+                           <li class="nav-item active ">
+                               <a class="nav-link  t2" href="index.html"><strong>HOME</strong></a>
+                           </li>
+          
+          
+                           <li class="nav-item ">
+                               <a class="nav-link   t3" href="aboutus.html"><strong>ABOUT US</strong></a>
+                           </li>
+            
+            
+                           <li class="nav-item ">
+                               <a class="nav-link   t3" href="doctors.html"><strong>DOCTORS</strong></a>
+                           </li>
+                          
+                          
+                           <li class="nav-item ">
+                               <a class="nav-link  t3" href="depart.html"><strong>DEPARTMENTS</strong></a>
+                           </li>
+            
+            
+            
+                           <li class="nav-item ">
+                               <a class="nav-link colr t3" href="contact.html"><strong>CONTACTS</strong></a>
+                           </li>
+                      </ul>
+                       
+                   </div><!--collapse-->
+                  
+                 
+                 
+        <div class="row">
+                 <div class=" p-3 ml-4 col-sm-3">
+                  <img src="images/1.gif" id="imgs2" style="position:relative;right:40px;top:19px" onclick="this.style.zIndex=2;document.getElementById('imgs1').style.zIndex=1" />
+                  
+	<img src="images/2.gif" id="imgs1" style="position:relative;right:54px;top:2px" onclick="this.style.zIndex=2;document.getElementById('imgs2').style.zIndex=1" />
+                  </div>
+                  </div>
+               </div><!--container-->
+          </nav>
+ 
+    
+    
+    <!--==============================
+               end-navbar
+==================================-->    
+    
+    
+    
+    
+    
+    
+ <!--==============================
+                map
+==================================-->
+
+   <div class="map1 mt-3">
+      <div class="container">
+       <div class="row">
+         <div class="col">
+          <div class="map-responsive">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3476.710540671932!2d47.995517835634985!3d29.378763506666754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf849850d401e9%3A0x767eb1122316959c!2z2KjYsdisINin2YTYrdmF2LHYp9ih2Iwg2LTYp9ix2Lkg2KfZhNi02YfYr9in2KHYjCDZhdiv2YrZhtipINin2YTZg9mI2YrYqtiMINin2YTZg9mI2YrYquKAjg!5e0!3m2!1sar!2seg!4v1518115463442" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+         
+          </div>
+       </div>
+       </div>
+    </div>
+   
+    <!--==============================
+                end-map
+==================================-->
+    
+   
+    
+    
+    
+    
+    <!--==============================
+                contact
+==================================-->
+    
+    
+    <section id="contact" class="py-5 ">
+       <div class="container">
+         <div class="row">
+           <h1 class="text-center text-info my-3 pb-2">We review and accept patient’s requests on a 24/7 basis. Please, contact us now:</h1>
+             <div class="col-md-6 col-sm-12">
+                <form>
+                  <div class="card card1 mt-5 ">
+                    <div class="card-body">
+                      <div class="form-group">
+                         <input type="Name" class="form-control" id="Name1" aria-describedby="NameHelp" placeholder="Enter Your Name">
+                      </div><!--form-group-->
+                      <div class="form-group">
+                         <input type="Email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="Enter Your Email">
+                      </div><!--form-group-->
+                      <div class="form-group">
+                         <input type="Name" class="form-control" id="Name1" aria-describedby="emailHelp" placeholder="Enter Your Website">
+                      </div><!--form-group-->
+                      <div class="form-group">
+                         <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Comment" rows="8"></textarea>
+                      </div><!--form-group-->
+                      <button type="submit" class="btn btn-light ">Send</button>
+                     </div><!--card-body-->
+                   </div><!--card-->
+                </form>
+              </div><!--col-md-6-->
+              <div class="col-md-6 col-sm-12 text-center mt-5 pt-2">
+                 <h1 class="text-info"> Primary Contacts</h1>
+                    <p>Phone: +96522202223
+                      <br>Fax: 1.555.329.6532
+                         <br>Email: healtro@demolink.org</p>
+                           <br>
+                             <h1 class="text-info">Directions</h1>
+                               <p class="py-3">87 Hayi Aljamieih.,
+                                  Elmansoura, VA, USA, 22303</p>
+                                   <h1 class="text-info py-3">Follow Us<br></h1>
+                               <a class="text-center pl-2 sub1 " href="#"><i class="fa fa-facebook-square fa1"></i>facebook</a>
+                             <a class="text-center pl-2 sub1 " href="#"><i class="fa fa-twitter-square fa1"></i>twitter</a>
+                           <a class="text-center pl-2 sub1 " href="#"><i class="fa fa-instagram fa1"></i>instagram</a>
+             </div> <!--col-md-6-->
+        </div> <!--row-->
+      </div><!--container-->
+    </section>
+    
+    
+
+
+ <!--==============================
+           end-contact
+==================================-->
+
+
+
+
+
+
+
+
+  <!--==============================
+              last-sec
+==================================-->
+    <div class="container">
+      <div class="end1 my-2 py-2 bg-dark" >
+         <div class="container">
+           <div class="row">
+             <div class="col-md-6 text-center">
+       
+               <h1 class="text-white">VETAL<span class="text-info">MD</span></h1>
+               <p class="text-white">We’re at your service for 24/7, finding solutions <br>to any health issues that you might have!</p>
+               <br><br>
+        
+               <h1 class="text-info">Opening hours</h1>
+               <p class="text-white">Working Days: Mon.-Fri.<br>
+                Working Hours: 9.00AM-5.00PM</p>
+    
+            </div>
+            <div class="col-md-6 text-center text-white">
+             <h1 class="text-info">Primary Contacts</h1>
+             <p>Phone: +96522202223
+             <br>Fax: 1.555.329.6532
+             <br>Email: healtro@demolink.org</p>
+             <br>
+             <h1 class="text-info">Directions</h1>
+             <p class="py-3">87 Hayi Aljamieih.,
+             Elmansoura, VA, USA, 22303</p>
+           </div><!--col-md-6-->
+        </div><!--row-->
+      </div><!--container-->
+    </div>
+ </div>
+
+<!--==============================
+             end-last-sec
+==================================-->
+
+ 
+    
+    
+    
+  <!--==============================
+               footer
+==================================-->
+ 
+    <footer id="footer-mine" class="text-center">
+    
+    <div class="container">
+       <div class="row">
+       <div class="col">
+         <p>
+             2018 &#64; Healtro. All rights reserved. <span class="text-info">| Privacy Policy | </span>Designed by <span class=" text-info">lifetech</span></p>
+           </div>
+        </div>
+        </div>
+    </footer>
+     <!--==============================
+              end-footer
+==================================-->
+    
+    
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> 
+</head>
+<body>
+    
+    
+    
+    
+    
+     <!--==============================
+               btn-top
+==================================-->
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+    
+    
+     <!--==============================
+               end-btn-top
+==================================-->
+    
+    
+    
+    
+    
+    <!--==============================
+               nav-bar
+==================================-->
+    
+         <nav class="navbar navbar-expand-lg navbar-light   form2 " style="background-image: url(../images/Untitled-1.jpg);background-attachment: fixed;" >
+              <div class="container">
+                   <a href="index.html" class="navbar-brand">
+                     <img src="images/logo1.png" class="img-fluid mx-auto d-block w-25">
+                   </a>
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+                  
+                 
+        
+                   <div class=" collapse navbar-collapse py-5 " id="navbarNav">
+                    
+                      <ul class="navbar-nav ml-auto">
+                          
+                           <li class="nav-item active ">
+                               <a class="nav-link  t2" href="index.html"><strong>HOME</strong></a>
+                           </li>
+          
+          
+                           <li class="nav-item ">
+                               <a class="nav-link   t3" href="aboutus.html"><strong>ABOUT US</strong></a>
+                           </li>
+            
+            
+                           <li class="nav-item ">
+                               <a class="nav-link   t3" href="doctors.html"><strong>DOCTORS</strong></a>
+                           </li>
+                          
+                          
+                           <li class="nav-item ">
+                               <a class="nav-link  t3" href="depart.html"><strong>DEPARTMENTS</strong></a>
+                           </li>
+            
+            
+            
+                           <li class="nav-item ">
+                               <a class="nav-link colr t3" href="contact.html"><strong>CONTACTS</strong></a>
+                           </li>
+                      </ul>
+                       
+                   </div><!--collapse-->
+                  
+                 
+                 
+        <div class="row">
+                 <div class=" p-3 ml-4 col-sm-3">
+                  <img src="images/1.gif" id="imgs2" style="position:relative;right:40px;top:19px" onclick="this.style.zIndex=2;document.getElementById('imgs1').style.zIndex=1" />
+                  
+	<img src="images/2.gif" id="imgs1" style="position:relative;right:54px;top:2px" onclick="this.style.zIndex=2;document.getElementById('imgs2').style.zIndex=1" />
+                  </div>
+                  </div>
+               </div><!--container-->
+          </nav>
+ 
+    
+    
+    <!--==============================
+               end-navbar
+==================================-->    
+    
+    
+    
+    
+    
+     
+  
+ 
+    
+    
+    <!--==============================
+             department1
+==================================-->
+
+     <div class=" depart m-2">
+        <div class="container">
+          <div class="depart1">
+            <div class="row">
+               <div class="col-md-6">
+                 <img src="images/first.jpeg" class="img-fluid">
+               </div><!--col-md-6-->
+               <div class="col-md-6 col-sm-12 text-white">
+                 <h1 class="pt-4 text-center">Plastic Surgery Department</h1>
+                 <h5 class="text-center">Head of the surgery department</h5>
+                 <p class="text-center px-3">Plastic surgery plays a big part in our medical practice. We’ve got 9 MDs and surgeons dedicated specifically to this field of service. As long as the plastic surgery will not be harmful to our client’s health, we’re gonna perform it in a timely manner and with an affordable price tag attached to it…<br>Also, we have all that it takes to get you through the post-surgery rehabilitation after the intrusion was finished…
+                 Our seasoned team, advanced equipment and long experience of numerous types of plastic surgery (breast surgery; face lifts; body lifting) ensure that with Healtro clinic you’ll be on a fast track to recovery!</p>
+                </div><!--col-md-6-->
+             </div><!--row-->
+           </div><!--depart1-->
+            
+           <div class="bg-white text-center">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 col-sm-12">
+                    <img src="images/doc3.jpg" class="img-fluid rounded-circle img6 mt-4 mx-auto d-block ">
+                      <h3 class=" py-2 txt7 text-center ">DR:Maher Zeen</h3>
+                        <h4 class="  text-center" >Head of department</h4>
+                  </div><!--col-md-4-->
+                  <div class="col-md-4 col-sm-12">
+                    <img src="images/bed1.jpeg" class="img-fluid rounded-circle img6 mt-4 mx-auto d-block ">
+                      <h3 class=" py-2 txt7 text-center">Department info</h3>
+                        <h4 class=" text-center" >block A, 2nd floor</h4>
+                  </div><!--col-md-4-->
+                  <div class="col-md-4 col-sm-12">
+                    <img src="images/dddddddddddd.jpg" class="img-fluid rounded-circle img6 mt-4 mx-auto d-block ">
+                      <h3 class=" py-2 txt7 text-center">Find a doctor</h3>
+                        <h4 class="  text-center" >See doctors in this department</h4>
+                  </div><!--col-md-4-->
+                </div><!--row-->
+              </div><!--container-->
+            </div><!--bg-white-->
+       </div><!--container-->
+    </div><!--depart-->
+    
+    
+    
+    <!--==============================
+            end-department1
+==================================-->
+    
+    
+    
+     <!--==============================
+             department2
+==================================-->
+    
+    
+    <div class="d2 m-5">
+      <div class="container">
+        <div class="depart2">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 text-white">
+               <h1 class="pt-4 text-center">Reconstructive Surgery Department</h1>
+               <h5 class="text-center">Restoring your body and health</h5>
+               <p class="text-center px-3">Reconstructive surgery is, in its broadest sense, the application of surgery to restore the form and function of the body. Oftentimes it’s required if a person suffered severe damage after an accident, trauma or an assault (including sports traumas)…<br><br>Our services include maxillo-facial surgeries, and otolaryngologist’s help. Also we offer face and body reconstruction surgeries, performed by a team of skilled practicing surgeons.</p>
+             </div><!--col-6-->
+             <div class="col-md-6 col-sm-12">
+               <img src="images/sec2.jpeg" class="img-fluid mx-auto d-block">
+             </div><!--col-6-->
+           </div><!--row-->
+         </div><!--depart-2-->
+          
+         <div class=" bg-white text-center">
+           <div class="container">
+             <div class="row">
+               <div class="col-md-4 col-sm-12">
+                 <img src="images/doc4.jpg" class="img-fluid rounded-circle img6 mt-4 mx-auto d-block ">
+                   <h3 class="text-center py-2 txt7 ">DR:Eslam Matter</h3>
+                     <h4 class="text-center " >Head of department</h4>
+               </div><!--col-4-->
+               <div class="col-md-4 col-sm-12">
+                 <img src="images/fff.jpeg" class="img-fluid rounded-circle img6 mt-4 mx-auto d-block ">
+                   <h3 class="text-center py-2 txt7 ">Department info</h3>
+                     <h4 class="text-center " >block A, 2nd floor</h4>
+               </div><!--col-4-->
+               <div class="col-md-4 col-sm-12">
+                 <img src="images/fddd.jpeg" class="img-fluid rounded-circle img6 mt-4 mx-auto d-block ">
+                   <h3 class="text-center py-2 txt7 ">Find a doctor</h3>
+                     <h4 class="text-center" >See doctors in this department</h4>
+               </div><!--col-4-->
+              </div><!--row-->
+           </div><!--container-->
+          </div><!--bg-white-->
+        </div><!--container-->
+     </div><!--d2-->
+    
+    
+      <!--==============================
+             end-department2
+==================================-->
+    
+    
+    
+    
+    
+      <!--==============================
+             department3
+==================================-->
+    <div class=" depart m-2">
+       <div class="container">
+          <div class="depart1">
+             <div class="row">
+                <div class="col-md-6 col-sm-12">
+                   <img src="images/aaaaa.jpeg" class="img-fluid">
+                </div>
+                <div class="col-md-6 text-white">
+                   <h1 class="pt-4 text-center">Neurosurgery Department</h1>
+                   <h5 class="text-center">Saving one life at a time</h5>
+                   <p class="text-center px-3">Our clinic has the highest rate of recoveries among any other state’s surgical clinics, as far as neurosurgery is concerned. Such intricate medical processes as brain surgery or spine operations must be performed by seasoned doctors only…<br>Healtro clinic’s got a top-qualified team on its list.
+                   These surgeons did hundreds of such operations and the rate of their patients’ recovery serves as the best possible encouragement.</p>
+                </div><!--col-6-->
+              </div><!--row-->
+           </div><!--depart1-->
+       
+           <div class="bg-white text-center">
+             <div class="container">
+               <div class="row">
+                 <div class="col-md-4 col-sm-12">
+                   <img src="images/doc11.jpg" class="img-fluid rounded-circle img6 mt-4 mx-auto d-block ">
+                     <h3 class="text-center py-2 txt7 ">DR:Judy Eslam</h3>
+                       <h4 class="text-center " >Head of department</h4>
+                 </div><!--col-4-->
+                 <div class="col-md-4 col-sm-12">
+                    <img src="images/qqq.jpeg" class="img-fluid rounded-circle img6 mt-4 mx-auto d-block ">
+                      <h3 class="text-center py-2 txt7 ">Department info</h3>
+                        <h4 class="text-center " >block A, 2nd floor</h4>
+                 </div><!--col-4-->
+                 <div class="col-md-4 col-sm-12">
+                     <img src="images/www.jpeg" class="img-fluid rounded-circle img6 mt-4 mx-auto d-block ">
+                       <h3 class="text-center py-2 txt7 ">Find a doctor</h3>
+                         <h4 class="text-center" >See doctors in this department</h4>
+                 </div><!--col-4-->
+                </div><!--row-->
+              </div><!--container-->
+            </div><!--bg-white-->
+       </div><!--container-->
+     </div><!--depart-->
+    
+
+
+
+ <!--==============================
+              last-sec
+==================================-->
+    <div class="container">
+      <div class="end1 my-2 py-2 bg-dark" >
+         <div class="container">
+           <div class="row">
+             <div class="col-md-6 text-center">
+       
+               <h1 class="text-white">VETAL<span class="text-info">MD</span></h1>
+               <p class="text-white">We’re at your service for 24/7, finding solutions <br>to any health issues that you might have!</p>
+               <br><br>
+        
+               <h1 class="text-info">Opening hours</h1>
+               <p class="text-white">Working Days: Mon.-Fri.<br>
+                Working Hours: 9.00AM-5.00PM</p>
+    
+            </div>
+            <div class="col-md-6 text-center text-white">
+             <h1 class="text-info">Primary Contacts</h1>
+             <p>Phone: +96522202223
+             <br>Fax: 1.555.329.6532
+             <br>Email: healtro@demolink.org</p>
+             <br>
+             <h1 class="text-info">Directions</h1>
+             <p class="py-3"> Kuwait-East-Al-Hamra Tower-Floor 18E</p>
+           </div><!--col-md-6-->
+        </div><!--row-->
+      </div><!--container-->
+    </div>
+ </div>
+
+<!--==============================
+             end-last-sec
+==================================-->
+
+ 
+    
+    
+    
+  <!--==============================
+               footer
+==================================-->
+ 
+    <footer id="footer-mine" class="text-center">
+    
+    <div class="container">
+       <div class="row">
+       <div class="col">
+         <p>
+             2018 &#64; Healtro. All rights reserved. <span class="text-info">| Privacy Policy | </span>Designed by <span class=" text-info">lifetech</span></p>
+           </div>
+        </div>
+        </div>
+    </footer>
+     <!--==============================
+              end-footer
+==================================-->
+    
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

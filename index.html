@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title > VitalMd-online</title>
+    <link rel="shortcut icon" href="images/Red_and_White_Pill_Capsule_PNG_Clipart-360.png" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> 
+</head>
+
+    
+    
+  
+    
+    
+    
+    <!--==============================
+                loader
+==================================-->
+
+<body onload="myFunction()" style="margin:0;">
+    
+     <div class="row">
+     <div class="col-sm-12">
+    <div id="loader" style="background: #00b3fe;" ><img src="images/gif/Untitled%20Project%20(2).gif" class="mt-5 pt-5 mx-auto d-block "></div>
+         </div>
+    </div>
+
+
+
+
+    <!--==============================
+               end-loader
+==================================-->
+    
+    
+    
+     <!--==============================
+               btn-top
+==================================-->
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+    
+    
+     <!--==============================
+               end-btn-top
+==================================-->
+    
+    
+    
+    
+    
+    <!--==============================
+               nav-bar
+==================================-->
+    
+         <nav class="navbar navbar-expand-lg navbar-light   form2 " style="background-image: url(../images/Untitled-1.jpg);background-attachment: fixed;" >
+              <div class="container">
+                   <a href="index.html" class="navbar-brand">
+                     <img src="images/logo1.png" class="img-fluid mx-auto d-block w-25">
+                   </a>
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+                  
+                 
+        
+                   <div class=" collapse navbar-collapse py-5 " id="navbarNav">
+                    
+                      <ul class="navbar-nav ml-auto">
+                          
+                           <li class="nav-item active ">
+                               <a class="nav-link  t2" href="index.html"><strong>HOME</strong></a>
+                           </li>
+          
+          
+                           <li class="nav-item ">
+                               <a class="nav-link   t3" href="aboutus.html"><strong>ABOUT US</strong></a>
+                           </li>
+            
+            
+                           <li class="nav-item ">
+                               <a class="nav-link   t3" href="doctors.html"><strong>DOCTORS</strong></a>
+                           </li>
+                          
+                          
+                           <li class="nav-item ">
+                               <a class="nav-link  t3" href="depart.html"><strong>DEPARTMENTS</strong></a>
+                           </li>
+            
+            
+            
+                           <li class="nav-item ">
+                               <a class="nav-link colr t3" href="contact.html"><strong>CONTACTS</strong></a>
+                           </li>
+                      </ul>
+                       
+                   </div><!--collapse-->
+                  
+                 
+                 
+        <div class="row">
+                 <div class=" p-3 ml-4 col-sm-3">
+                  <img src="images/1.gif" id="imgs2" style="position:relative;right:40px;top:19px" onclick="this.style.zIndex=2;document.getElementById('imgs1').style.zIndex=1" />
+                  
+	<img src="images/2.gif" id="imgs1" style="position:relative;right:54px;top:2px" onclick="this.style.zIndex=2;document.getElementById('imgs2').style.zIndex=1" />
+                  </div>
+                  </div>
+               </div><!--container-->
+          </nav>
+ 
+    
+    
+    <!--==============================
+               end-navbar
+==================================-->    
+    
+    
+    
+    
+    
+    
+    
+  <!--==============================
+         start-slide-show
+==================================-->
+    
+    <div class="header my-5 pb-5">
+        <div class="container">
+             <div class="row">
+                <div class="col">
+    
+                    
+                    
+                    <div id="carousel1" class="carousel slide "  data-ride="carousel" >
+                      <div class="carousel-inner slids1" >
+                          
+                         <div class="carousel-item active slids1">
+                           <img class="d-block w-100 img4" src="images/doc0.jpeg" alt="First slide">
+                              <div class="carousel-caption  d-md-block">
+                                 <h1 class="txt1">Do not take pills with COOL water</h1>
+                              </div>
+                         </div>
+                      <div class="carousel-item slids1">
+                         <img class="d-block w-100 img4"  src="images/slid2.jpeg" alt="Second slide">
+                            <div class="carousel-caption  d-md-block">
+                              <h1>Smoking Destroys Health And Causese Death</h1>
+                            </div>
+                      </div>
+                      <div class="carousel-item slids1">
+                        <img class="d-block w-100 img4" src="images/slid3.jpeg" alt="Third slide">
+                           <div class="carousel-caption  d-md-block">
+                               <h1 class="txt2">Do not drink coffee TWICE a day</h1>
+                           </div>
+                      </div>
+                    </div>
+                        <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div><!--carousel-->
+     
+                    
+                 </div><!--col-->
+              </div><!--row-->
+         </div><!--container-->
+    </div><!--header-->
+    
+    
+    
+    
+    <!--==============================
+               end-slid-show
+==================================-->
+    
+    
+    
+    
+    <!--==============================
+               section-welcome
+==================================-->
+    
+    
+    <section id="welcome" class="bg-white text-center pb-5">
+    <div class="container">
+       <div class="row">
+       <div class="col">
+           <div class="card ">
+               <div class="card-body">
+           <h1><span class="t1 py-2">welcome</span> to our clinic</h1>
+           
+           <p>The Healtro private medical clinic specializes in a wide variety of health issues, relative to absolutely any age or severity level. Our seasoned team of 45+ surgeons and practical nurses will be glad to come to your aide on a 24/7 basis!</p>
+           </div>
+           </div>
+           </div>
+        </div>
+        </div>
+    </section>
+    
+    
+    <!--==============================
+               end-section-welcome
+==================================-->
+    
+    
+    
+    
+    
+    
+    
+   <!--==============================
+             news
+==================================-->
+    
+    
+    <section id="news" class="pt-2 text-center align-content-center ">
+      <div class="container">
+        <h2 class="text-center py-2 n1" >NEWS</h2>
+          <div class="row">
+              
+              
+              
+            <div class="col-md-4 col-sm-12 text-center ">
+              <div class="card pb-0 mb-0" >
+                 <img class="card-img-top hi1" src="images/Vaccines.jpeg " alt="Card image cap">
+                   <div class="card-body">
+                     <h5 class="card-title">Universal Flu Vaccine Could Be on the Way</h5>
+                      <p class="card-text">defeat the influenza virus’ defense mechanisms. </p>
+                        <a href="read1.html" class="btn btn-info">Read More</a>
+                   </div>
+              </div>
+            </div><!--col-->
+            <div class="col-md-4 col-sm-12 text-center">
+              <div class="card" >
+                <img class="card-img-top hi1" src="images/222.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Millions of Families Wait to See If CHIP Will Continue</h5>
+                     <p class="card-text">Congress debates a budget bill that includes CHIP Funding. </p>
+                       <a href="read2.html" class="btn btn-info">Read More</a>
+                  </div>
+              </div>
+            </div><!--col-->
+            <div class="col-md-4 col-sm-12 text-center">
+              <div class="card" >
+                <img class="card-img-top hi1" src="images/444.jpg" alt="Card image cap">
+                 <div class="card-body">
+                  <h5 class="card-title">There Are Some Benefits to C-Sections, Researchers Say </h5>
+                    <p class="card-text">Researchers in the United Kingdom have listed some benefits to a cesarean section. </p>
+                     <a href="read3.html" class="btn btn-info">Read More</a>
+                 </div>
+              </div>
+            </div><!--col-->
+        
+       
+        </div><!--row-->
+        </div><!--container-->
+    </section>
+    
+    
+    <!--==============================
+               end-news
+==================================-->
+    
+    
+    
+    
+   <!--==============================
+             form-subscribe
+==================================-->
+    <section id="subscribe" class="py-5 ">
+       <div class="container">
+          <div class="row">
+            <div class="col-md-5 text-center align-items-center justify-content-center">
+              <div class="card" >
+                <div class="card-body">
+                  <h2 class="card-title">Want To Live A Healthy Life Style?</h2>
+                    <p class="card-text">Subscribe To Free VetalMd News Letters</p>
+    
+    
+    
+                     <form>
+                        <div class="form-check p-2  ">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">VetalMd Daily</label>
+                        </div>
+                           
+                           
+                        <div class="form-check p-2">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Men's Health</label>
+                        </div>
+                           
+                           
+                        <div class="form-check p-2">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Women's Health</label>
+                        </div>
+                           
+                           
+                        <div class="form-group">
+                         <input type="email" class="form-control text-center py-3" id="Email1" aria-describedby="emailHelp" placeholder="Enter email Address">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                         </div>
+ 
+                           
+                         <a href="#" class="btn btn-info">Subscribe</a>
+                     </form>
+                </div><!--card-body-->
+              </div><!--card-->
+             
+                
+              <h5 class="text-center txt4 pt-4">By Clicking Subscribe,I Agree To The VetalMd Terms &amp;Conditions &amp; Privacy Policy And Understand That<br> I May Opt Out Of VetalMd Subscriptions At Any Time. </h5>
+              
+           
+          </div><!--col-->
+        </div><!--row-->
+      </div><!--container-->
+    </section>
+    
+    
+    <!--==============================
+         end-form-subscribe
+==================================-->
+    
+    
+    
+    
+      <!--==============================
+         HEALTHY LIVING
+==================================-->
+   
+    <section id="HEALTHY" class="py-5 my-1">
+       <div class="container">
+         <div class="edit1 justify-content-center">
+            <div class="row">
+        
+                <div class="col-md-4 col-sm-12 text-center ">
+                  <h3>Healthy Information</h3>
+                    <p><strong>If you want to gain health information press the buttons <br></strong> </p>
+                     <a href="read4.html" class="btn btn-info my-2">Read More</a>
+                </div>
+                <div class="col-md-4 col-sm-12 text-center">
+                  <h3>Food&amp;Nutrition</h3>
+                   <p><strong>What Is Protein Poisoning?<br></strong><br> </p>
+                     <a href="read5.html" class="btn btn-info my-2">Read More</a>
+                </div>
+                <div class="col-md-4 col-sm-12 text-center">
+                 <h3 >Fitness &amp; Exrcise</h3>
+                  <p ><strong>Want An Exrcise Routine That Works?<br><br></strong> </p>
+                    <a href="read6.html" class="btn btn-info my-2">Read More</a>
+                </div>
+                
+                
+            </div><!--ROW-->
+        </div><!--edit1 justify-->
+      </div><!--CONTAINER-->
+    </section>
+    
+     <!--==============================
+         End-HEALTHY LIVING
+==================================-->
+    
+    
+    
+    
+    
+     <!--==============================
+            contac us
+==================================-->
+    
+    
+    <section id="contact" class="py-5 ">
+        <div class="container">
+           <div class="row">
+               
+              <div class="col-md-6 col-sm-12">
+                  <div class="map-responsive my-5">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3476.710540671932!2d47.995517835634985!3d29.378763506666754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf849850d401e9%3A0x767eb1122316959c!2z2KjYsdisINin2YTYrdmF2LHYp9ih2Iwg2LTYp9ix2Lkg2KfZhNi02YfYr9in2KHYjCDZhdiv2YrZhtipINin2YTZg9mI2YrYqtiMINin2YTZg9mI2YrYquKAjg!5e0!3m2!1sar!2seg!4v1518115463442" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div><!--map-responsive-->
+              </div><!--col-md-6-->
+              <div class="col-md-6 col-sm-12 text-center">
+                 <h1 class="text-info">Primary Contacts</h1>
+                    <p>Phone: +96522202223
+                    <br>Fax: 1.555.329.6532
+                    <br>Email: healtro@demolink.org</p>
+                    <br>
+                 <h1 class="text-info">Directions</h1>
+                    <p class="py-3"> Kuwait-East-Al-Hamra Tower-Floor 18ُُُُE</p>
+                 <h1 class="text-info py-3">Follow Us<br></h1>
+                 <a class="text-center pl-2 sub1 " href="#"><i class="fa fa-facebook-square fa1"></i>facebook</a>
+                 <a class="text-center pl-2 sub1 " href="#"><i class="fa fa-twitter-square fa1"></i>twitter</a>
+                 <a class="text-center pl-2 sub1 " href="#"><i class="fa fa-instagram fa1"></i>instagram</a>
+              </div> <!--col-->
+               
+               
+          </div><!--row-->
+        </div><!--container-->
+     </section>
+    
+     <!--==============================
+            end-contac us
+==================================-->
+    
+    
+    
+    
+    <!--==============================
+            footer
+==================================-->
+    
+    <footer id="footer-mine" class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>
+             2018 &#64; Healtro. All rights reserved. <span class="text-info">| Privacy Policy | </span>Designed by <span class=" text-info">lifetech</span></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+     <!--==============================
+                end-footer
+==================================-->
+    
+    
+    
+    
+    
+     <!--==============================
+               script
+==================================-->
+
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+
+        }
+    </script>
+
+
+    <!--==============================
+                end-script
+==================================-->
+
+
+    
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
